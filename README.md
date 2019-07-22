@@ -1,29 +1,22 @@
-# my-project
+Vue js öğrenmek için geliştirdiğim basit bir proje.
 
-## Project setup
-```
-npm install
-```
+Kullanılan pluginler:
+-vue-roter
+-axios
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Sahte json dataları için kullanılan servis: https://jsonplaceholder.typicode.com/
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Uygulama 2 sayfadan oluşuyor. Anasayfa ve detay sayfası.
 
-### Run your tests
-```
-npm run test
-```
+Anasayfa: Bütün postların listelendiği sayfa(Postların sadece başlıkları ve idleri yazıyor)
+Detay sayfası: Anasayfa tıklanan postun detay bilgisi
 
-### Lints and fixes files
-```
-npm run lint
-```
+Anasayfa yüklendiğinde bütün postlar web servisinden çekiliyor ve listeleniyor(Sadece başlıkları). Tıklanılan postun idsi url üzerinden detay sayfasına gönderiliyor. Detay sayfası oluştuğu web servisine bağlanıp postun detay bilgileri alınıyor ve ekrana yazılıyor.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Anasayfa
+
+![homepage](https://user-images.githubusercontent.com/46047252/61664526-976f9b80-acdb-11e9-8683-d93145cf07fe.png)
+
+Detay sayfası
+
+![detailpage](https://user-images.githubusercontent.com/46047252/61664550-a0606d00-acdb-11e9-80fe-72b718d1503f.png)
